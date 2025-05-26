@@ -1,6 +1,43 @@
 # Sales_Report
 Sales Report of XYZ company
 
+# 📊 Sales Report Dashboard (Power BI)
+
+A comprehensive Power BI dashboard for analyzing company sales performance by region, product, and time period.
+
+## 📁 File Included
+- `Sales_Report.pbix` – Power BI report file
+
+## 📊 Key Report Pages
+
+### 1. Sales Overview
+- Total Revenue: ₹2.5 Cr
+- Monthly Sales Trend
+- Region-wise Revenue Contribution
+- KPIs: Total Orders, Average Order Value, Total Units Sold
+
+### 2. Product Analysis
+- Top-Selling Products
+- Revenue per Product Category
+- Profitability by Product
+- Filters: Category, Sub-category
+
+### 3. Customer Insights
+- New vs Returning Customers
+- Customer Lifetime Value
+- High-value customer segments
+
+### 4. Regional Performance
+- Sales Heatmap by Region
+- Revenue Growth by Zone
+- Regional Discount Impact
+
+## 🧮 Measures & DAX
+- `Total Sales = SUM(Sales[Amount])`
+- `Avg Order Value = [Total Sales] / DISTINCTCOUNT(Sales[OrderID])`
+- `Customer Count = DISTINCTCOUNT(Customers[CustomerID])`
+  
+
 ## Insights and Recommendations
 🔹 Revenue Trends
 
